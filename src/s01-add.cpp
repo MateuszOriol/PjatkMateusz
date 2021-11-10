@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+//kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
 // for std :: cout , std :: cerr , and std :: cin
 auto main(int argc, char* argv[]) -> int
 {
