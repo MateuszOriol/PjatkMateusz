@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <iostream>
 
 void is_even(int a)
