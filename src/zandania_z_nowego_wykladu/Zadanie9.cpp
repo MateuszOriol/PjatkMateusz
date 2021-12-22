@@ -3,14 +3,14 @@
 
 bool is_palindrome(std::string a)
 {
-	std::string w = a;
-	int dl = a.size(), licznik = 0;
-	for (int i = 0; i<dl / 2; i++)
+	std::string slowo = a;
+	int dlugosc = a.size(), licznik = 0;
+	for (int i = 0; i<dlugosc / 2; i++)
 	{
-		if (w[i] == w[dl - i - 1])
+		if (slowo[i] == slowo[dlugosc - i - 1])
 			licznik++;
 	}
-	if (licznik == dl / 2)
+	if (licznik == dlugosc / 2)
 		return true;
 	else
 		return false;
